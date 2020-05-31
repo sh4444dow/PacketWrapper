@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.comphenix.packetwrapper</groupId>
   <artifactId>PacketWrapper</artifactId>
   <packaging>jar</packaging>
-  <version>1.8.7-R0.1-SNAPSHOT</version>
+  <version>1.8.8</version>
   <name>PacketWrapper</name>
 
   <properties>
@@ -25,6 +25,10 @@
       <id>md_5-repo</id>
       <url>http://repo.md-5.net/content/groups/public/</url>
     </repository>
+    <repository>
+      <id>nash</id>
+      <url>https://nexus.nash.n3xus.xyz/repository/maven-public/</url>
+    </repository>
   </repositories>
 
   <distributionManagement>
@@ -42,12 +46,12 @@
     <dependency>
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot-api</artifactId>
-      <version>1.8.7-R0.1-SNAPSHOT</version>
+      <version>1.8.8-R0.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.spigotmc</groupId>
       <artifactId>spigot</artifactId>
-      <version>1.8.7-R0.1-SNAPSHOT</version>
+      <version>1.8.8</version>
     </dependency>
     <dependency>
       <groupId>com.comphenix.protocol</groupId>
